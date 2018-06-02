@@ -1,0 +1,32 @@
+.tables{
+	border-collapse:collapse;
+	background-color: #fff;
+}
+.tds{
+	width: 150px;
+	height: 150px;
+	border: 5px solid gray;
+	valign:middle;
+}
+.tds div{
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+.tds div span{
+	display:block;
+	text-align: center;
+	line-height: 150px;
+	font-size: 30px;
+	width: 150px;
+	height: 150px;
+	text-decoration: underline;
+}
+.tds div span:hover{
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 150px;
+	height: 150px;
+	border:5px solid red;
+}

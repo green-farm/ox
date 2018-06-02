@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>ＯＸ棋</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel=stylesheet type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="js/main.min.js"></script>
+	</head>
+	<body>
+		
+		<table>
+			<tr>
+				<td style="width:75px;">你是誰</td>
+				<td style="width:75px;"></td>
+				<td style="width:75px;">關主</td>
+				<td style="width:75px;"><input type="button" id="btnStart" value="開始" style="width:75px;"/></td>
+				<td style="width:75px;" rowspan="2" align="center"><span id="showImg"></span></td>
+				<td style="width:75px;" rowspan="2"><span id="showText"></span></td>
+			</tr>
+			<tr>
+				<td>
+					<select style="width:75px;" id="classmate">
+						<option value="1">佩芬</option>
+						<option value="2">意芬</option>
+						<option value="3">芳馨</option>
+						<option value="4">馨月</option>
+						<option value="5">志文</option>
+						<option value="6">永福</option>
+					</select>
+				</td>
+				<td>
+					<select style="width:75px;" id="order">
+						<option value="1">先攻</option>
+						<option value="2">後攻</option>
+					</select>
+				</td>
+				<td>
+					<select style="width:75px;" id="garfield">
+						<option value="1">睡著</option>
+						<option value="2">醒來</option>
+					</select>
+				</td>
+				<td>
+					<input type="button" id="btnReset" value="重來" style="width:75px;"/>
+				</td>
+			</tr>
+		</table>
+		<table class="tables">
+			<tr class="trs">
+				<td class="tds"><div><span id="0"></span></div></td>
+				<td class="tds"><div><span id="1"></span></div></td>
+				<td class="tds"><div><span id="2"></span></div></td>
+			</tr>
+			<tr class="trs">
+				<td class="tds"><div><span id="3"></span></div></td>
+				<td class="tds"><div><span id="4"></span></div></td>
+				<td class="tds"><div><span id="5"></span></div></td>
+			</tr>
+			<tr class="trs">
+				<td class="tds"><div><span id="6"></span></div></td>
+				<td class="tds"><div><span id="7"></span></div></td>
+				<td class="tds"><div><span id="8"></span></div></td>
+			</tr>
+		</table>
+	</body>
+</html>
